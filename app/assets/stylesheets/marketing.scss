@@ -119,6 +119,7 @@ main {
       li{
         list-style-type: none;
         border: 1px solid rgba(3, 3, 3, 0.8);
+        border-bottom: none;
         color: black;
         background: #d4d4d4;
         opacity: 0.5;
@@ -156,6 +157,20 @@ main {
       margin: 1rem;
     }
 
+  }
+
+  .button {
+    height: 30px;
+    width: 75px;
+    border-radius: 25px;
+    border-left: 1px solid grey;
+    border-right: 1px solid grey;
+    border-bottom: 1px solid grey;
+    background-color: white;
+  }
+  .btn {
+    padding: 0px;
+    border: 1px solid grey;
   }
 
 #bigbox {
