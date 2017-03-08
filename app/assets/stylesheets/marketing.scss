@@ -1,0 +1,193 @@
+// Place all the styles related to the marketing controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+body {
+  font-family: Helvetica, sans-serif;
+}
+
+nav {
+  background-color: white;
+  color: rgba(3, 3, 3, 0.4);
+
+  #logo {
+    padding: 17px 1px 0px 10px;
+    float: left;
+  }
+
+  a {
+    color: black;
+    text-decoration: none;
+    font-weight: normal;
+    font-size: smaller;
+  }
+
+  ul {
+    float: left;
+    list-style-type: none;
+
+    li {
+      display: inline-block;
+
+      a {
+        font-weight: lighter;
+        font-size: smaller;
+        padding: 10px;
+      }
+    }
+  }
+
+}
+
+footer {
+  background-color: rgba(3, 3, 3, 1);
+  padding: 10px 50px;
+  /* top right bottom left */
+  display: flex;
+
+    ul {
+      list-style-type: none;
+      padding: 0px;
+      text-align: right;
+      color: grey;
+
+      li {
+        font-size: 15px;
+
+        a{
+          color: white;
+        }
+      }
+
+  }
+
+  form {
+      flex: 6;
+      text-align: center;
+      * {
+        margin-right: auto;
+        margin-left: auto;
+        display: block;
+      }
+  }
+  ul {
+    flex: 3;
+    list-style-type: none;
+    text-align: center;
+    font-size: 12px;
+  }
+}
+
+header {
+  height: 250px;
+  background-image: url('/assets/background');
+  background-size: cover;
+  padding: 150px;
+  h1 {
+    margin-top: 0px;
+    padding: 0px;
+    text-align: center;
+    color: white;
+    font-weight: normal;
+    font-size: 50px;
+  }
+}
+
+main {
+  font: Helvetica, sans-serif;
+  text-align: center;
+  display: flex;
+  padding: 0px 70px;
+  width: 60%;
+  margin-left: 180px;
+  div {
+    flex: 2;
+    padding: 20px 10px;
+
+
+  }
+
+    span {
+      font-size: 50px;
+    }
+
+    ul{
+      padding-left: 0px;
+      margin: 0px;
+
+
+      li{
+        list-style-type: none;
+        border: 1px solid rgba(3, 3, 3, 0.8);
+        color: black;
+        background: #d4d4d4;
+        opacity: 0.5;
+        padding: 10px;
+        font-size: 15px;
+
+      }
+    }
+
+
+
+    #one {
+      background: #388e3c;
+      opacity: 0.9;
+      color: white;
+      padding: 5px 5px;
+
+    }
+
+    #two {
+      background: #0d47a1;
+      opacity: 0.9;
+      color: white;
+      padding: 5px 5px;
+
+    }
+
+    #three{
+      background: #212121;
+      opacity: 0.9;
+      color: white;
+      padding: 5px 5px;
+    }
+    button {
+      margin: 1rem;
+    }
+
+  }
+
+#bigbox {
+  display: flex;
+}
+
+#c1 {
+  padding-left: 300px;
+  width: 400px;
+  padding-right: 30px;
+  word-wrap: break-word;
+  font-size: 15px;
+
+}
+
+#c2 {
+  padding-right: 400px;
+  width: 400px;
+  word-wrap: break-word;
+  font-size: 15px;
+}
+h3 {
+  font-weight: 400;
+  letter-spacing: 3px;
+}
+
+
+
+
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
